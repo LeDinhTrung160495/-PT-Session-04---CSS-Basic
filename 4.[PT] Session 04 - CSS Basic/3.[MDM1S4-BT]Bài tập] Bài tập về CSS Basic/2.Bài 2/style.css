@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+div {
+  width: 607px;
+  height: 340px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('https://thumb.photo-ac.com/f5/f5b1b716cbf342117a44033e1fc3bee9_t.jpeg');
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: inset 0px 60px 70px rgba(0, 0, 0, 0.6);
+}
+div p:nth-child(1) {
+  font-size: 25px;
+  padding-top: 80px;
+  margin-bottom: 35px;
+  color: blueviolet;
+}
+div p:nth-child(2) {
+  font-size: 15px;
+  padding-bottom: 70px;
+  color: blueviolet;
+}
+div button {
+  padding: 5px 10px;
+  background-color: rgb(206, 67, 199);
+  color: blueviolet;
+  border: none;
+}
